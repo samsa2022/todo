@@ -8,3 +8,9 @@ while True:
     if choice == 3:
         print('До свидания!')
         break
+
+    elif choice == 2:
+        if not tasks:
+            print('Список дел пуст')
+        else:
+            print(tasks)
