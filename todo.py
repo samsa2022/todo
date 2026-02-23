@@ -19,3 +19,6 @@ while True:
         task = input('Введите задачу: ')
         tasks.append(task)
         print('Задача добавлена!')
+
+    else:
+        print('Неккоректный ввод! Попробуйте еще раз')
