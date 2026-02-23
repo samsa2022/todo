@@ -9,8 +9,13 @@ while True:
         print('До свидания!')
         break
 
-    elif choice == 2:
+    elif choice == 1:
         if not tasks:
             print('Список дел пуст')
         else:
             print(tasks)
+
+    elif choice == 2:
+        task = input('Введите задачу: ')
+        tasks.append(task)
+        print('Задача добавлена!')
